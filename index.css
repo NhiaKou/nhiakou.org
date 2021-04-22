@@ -1,0 +1,19 @@
+p {
+    color: green;
+}
+
+body {
+    background: green;
+}
+
+:last-child {
+    background: orange;
+}
+
+head {
+
+}
+
+:first-child {
+    background: blue;
+}
