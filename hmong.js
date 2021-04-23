@@ -1,1 +1,0 @@
-console.log("Nyob zoo ntiaj teb")
