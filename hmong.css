@@ -1,3 +1,64 @@
 body {
-    background:grey;
+    margin: 0;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 15vh;
+    background: yellow;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+header section:first-child {
+    width: 50vw;
+    background: pink;
+}
+
+header section:last-child {
+    width: 50vw;
+    background: yellow;
+}
+
+main {
+    height: 75vh;
+    background: skyblue;
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-of-type(1) {
+    width: 20vw;
+    background: orange;
+}
+main section:nth-of-type(2) {
+    width: 60vw;
+    background: skyblue;
+}
+main section:nth-of-type(3) {
+    width: 20vw;
+    background: orange;
+}
+
+footer {
+    height: 10vh;
+    background: pink;
+    display: flex;
+    flex-direction: row;
+}
+
+footer section:nth-of-type(1) {
+    width: 30vw;
+    background: yellowgreen;
+}
+footer section:nth-of-type(2) {
+    width: 40vw;
+    background: goldenrod;
+}
+footer section:nth-of-type(3) {
+    width: 30vw;
+    background: yellowgreen;
 }
