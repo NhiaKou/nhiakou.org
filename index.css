@@ -16,11 +16,18 @@ header {
 header section:first-child {
     width: 50vw;
     background: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
 
 header section:last-child {
     width: 50vw;
     background: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 main {
@@ -47,7 +54,7 @@ footer {
     height: 10vh;
     background: pink;
     display: flex;
-    flex-direction: row;
+    
 }
 
 footer section:nth-of-type(1) {
@@ -61,4 +68,12 @@ footer section:nth-of-type(2) {
 footer section:nth-of-type(3) {
     width: 30vw;
     background: yellowgreen;
+}
+
+img {
+    height: 100px;
+}
+
+h1 {
+    font-size: 50px;
 }
