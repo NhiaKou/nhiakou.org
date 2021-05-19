@@ -9,7 +9,7 @@ header, main, footer {
 }
 
 header section:first-child {
-    height: 15vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -17,7 +17,7 @@ header section:first-child {
 }
 
 header section:last-child {
-    height: 15vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
