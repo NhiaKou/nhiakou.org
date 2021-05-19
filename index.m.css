@@ -10,10 +10,18 @@ header, main, footer {
 
 header section:first-child {
     height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-header section:first-child {
+header section:last-child {
     height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 main section:nth-of-type(1) {
@@ -40,4 +48,16 @@ footer section:nth-of-type(2) {
     height: 10vh;
 }
 
-img 
+img {
+    height: 50px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+iframe {
+    aspect-ratio: 560/315;
+    width: 100%
+    
+}
