@@ -74,3 +74,9 @@ img {
 h1 {
     font-size: 50px;
 }
+
+iframe {
+    aspect-ratio: 560/315;
+    width: 100%
+    
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background: grey;
+}
+
+header, main, footer {
+    display: flex;
+    flex-direction: column;
+}
+
+header section:first-child {
+    height: 15vh;
+}
+
+header section:first-child {
+    height: 15vh;
+}
+
+main section:nth-of-type(1) {
+    height: 0vh;
+}
+
+main section:nth-of-type(2) {
+    height: 75vh;
+}
+
+main section:nth-of-type(3) {
+    height: 75vh;
+}
+
+footer section:nth-of-type(1) {
+    height: 10vh;
+}
+
+footer section:nth-of-type(2) {
+    height: 10vh;
+}
+
+footer section:nth-of-type(2) {
+    height: 10vh;
+}
+
+img 
