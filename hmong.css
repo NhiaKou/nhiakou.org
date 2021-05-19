@@ -15,7 +15,6 @@ header {
 
 header section:first-child {
     width: 50vw;
-    background: pink;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -23,7 +22,6 @@ header section:first-child {
 
 header section:last-child {
     width: 50vw;
-    background: yellow;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
