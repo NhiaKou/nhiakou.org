@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0;
-    background: grey;
+    background: lightskyblue;
     display: flex;
     flex-direction: column;
 }
@@ -105,6 +105,27 @@ h1 {
 
 iframe {
     aspect-ratio: 560/315;
-    width: 100%
-    
+    width: 100%;
+    margin-top: 100px;  
+}
+
+
+p {
+    font-size: 2rem;
+}
+
+a {
+    font-size: 1.5rem;
+}
+
+strong {
+    font-size: 1.5rem;
+}
+
+small {
+    font-size: 1.5rem;
+}
+
+select {
+    font-size: 1.5rem;
 }

@@ -73,6 +73,7 @@ main section nav {
 footer {
     height: 10vh;
     display: flex;
+    flex-direction: row;
 }
 
 footer section:nth-of-type(1) {
