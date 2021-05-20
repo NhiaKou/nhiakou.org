@@ -1,3 +1,7 @@
+html {
+    font-size: 12pt;
+}
+
 body {
     margin: 0;
     background: grey;
@@ -29,23 +33,49 @@ main section:nth-of-type(1) {
 }
 
 main section:nth-of-type(2) {
-    height: 75vh;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: scroll;
+    padding: 50px 0;
 }
 
 main section:nth-of-type(3) {
-    height: 75vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main section article {
+    text-align: center;
 }
 
 footer section:nth-of-type(1) {
-    height: 10vh;
+    height: 5vh;
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer section:nth-of-type(2) {
     height: 10vh;
+    order: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer section:nth-of-type(2) {
     height: 10vh;
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -59,4 +89,24 @@ h1 {
 iframe {
     aspect-ratio: 560/315;
     width: 100%;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    font-size: 1rem;
+}
+
+strong {
+    font-size: 1rem;
+}
+
+small {
+    font-size: 1rem;
+}
+
+select {
+    font-size: 1rem;
 }
