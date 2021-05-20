@@ -7,7 +7,6 @@ body {
 
 header {
     height: 15vh;
-    background: yellow;
     display: flex;
     flex-direction: row;
     
@@ -32,7 +31,7 @@ header section:last-child {
 
 main {
     height: 75vh;
-    background: skyblue;
+    
     display: flex;
     flex-direction: row;
 }
@@ -66,7 +65,7 @@ main section article {
 }
 footer {
     height: 10vh;
-    background: pink;
+   
     display: flex;
     flex-direction: row;
     
