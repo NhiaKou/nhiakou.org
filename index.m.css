@@ -71,7 +71,7 @@ footer section:nth-of-type(2) {
     align-items: center;
 }
 
-footer section:nth-of-type(2) {
+footer section:nth-of-type(3) {
     height: 5vh;
     order: 2;
     display: flex;
