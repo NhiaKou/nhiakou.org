@@ -129,3 +129,7 @@ small {
 select {
     font-size: 1.5rem;
 }
+
+nav a {
+    margin: 5px;
+}
