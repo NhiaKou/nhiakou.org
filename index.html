@@ -1,66 +1,25 @@
-<html lang="en">
+<html>
     <head>
-        <title>Nhia Kou Marketplace</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Nhia Kou is the biggest decentralized marketplace and Kou is the most popular cyrptocurrency used by the Hmong people worldwide">
-        <link rel="icon" href="favicon.png">
-        <link rel="stylesheet" href="index.css" media="(min-width: 480px)">
-        <link rel="stylesheet" href="index.m.css" media="(max-width: 480px)">
-        <script src="index.js" defer></script>
+        <title>Nhia Kou</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="nhiakou.png">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js" type="module"></script>
         <script defer async src="https://www.googletagmanager.com/gtag/js?id=G-VWXGDRL057"></script>
+        <base href="?lang=en">
     </head>
     <body>
-        <header>
-            <section>
-                <img src="favicon.png">
-                <h1><u>Nhia Kou</u> Marketplace</h1>
-            </section>
-            <section>
-                <nav>
-                    <a href="https://anchor.fm/nhiakou">Anchor</a>
-                    <a href="https://www.youtube.com/channel/UCY2MSXM1sp6JCvWTb2NdI_g">YouTube</a>
-                    <a href="https://medium.com/nhiakou">Medium</a>
-                </nav>
-                <aside>
-                    <select onchange="updateLanguage(event)">
-                        <option value="index.html">English</option>
-                        <option value="hmong.html">Hmong</option>
-                    </select>
-                </aside>
-            </section> 
-        </header>
+        <sw-header></sw-header>
         <main>
-            <section></section>
-            <section>
-                <article>
-                    <iframe src="https://www.youtube.com/embed/VECtibXUyc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <p><b>Nhia Kou</b> is the biggest decentralized <em>homegrown</em> marketplace and <b>Kou</b> is the most popular cryptocurrency used by the Hmong people worldwide.</p>
-                </article>
-                <aside>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfpje4UxH1GO1p4DRHykRSnyOU9nJKbQXEzk_6I1sLhtos_QQ/viewform?usp=sf_link">Earn <b>5 Kou</b> coins by taking our short survey!</a>
-                </aside>
-            </section>
-            <section>
-                <nav>
-                    <!--<a href="https://t.me/nhiakou">Telegram</a>-->
-                    <a href="https://discord.gg/ym2BgVp6Ac">Discord</a>
-                    <a href="https://twitter.com/nhia3ou">Twitter</a>
-                    <a href="https://www.facebook.com/NhiaKou-101382402038310">Facebook</a>
-                </nav>
-            </section>
+            <sw-main>
+                <sw-curriculum></sw-curriculum>
+                <sw-podcast></sw-podcast>
+                <sw-quiz></sw-quiz>
+                <sw-code></sw-code>
+                <sw-cohort></sw-cohort>
+                <sw-coupon></sw-coupon>
+            </sw-main>
+            <sw-footer></sw-footer>
         </main>
-        <footer>
-            <section>
-                <strong><a href="https://heartbank.fund/NhiaKou/invest.html">Buy Kou at HeartBank&reg;</a></strong>
-            </section>  
-            <section>
-                <small> <a href="https://nhiakou.org">Nhia Kou Orchard</a> &copy; 2022</small>
-            </section>
-            <section>
-                <address>
-                    <a href="mailto:marketplace@nhiakou.com">marketplace@nhiakou.com</a>
-                </address>
-            </section>
-        </footer>
     </body>
 </html>
