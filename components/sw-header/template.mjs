@@ -14,21 +14,20 @@ template.innerHTML = `
         <nav>
             <ul>
                 <li>
-                    <h3>Cooking App</h3>
+                    <h3>Online Store</h3>
                     <div>
-                        <a href="#backend-cohort"><button>333.eco</button></a>
-                        <h4>Wallet</h4>
+                        <a href="#backend-cohort"><button>Shop</button></a>
+                        <h4>Coins</h4>
                         <menu>
-                            <li><a>Watch Videos on Udemy</a></li>
-                            <li><a>Read Textbook on Medium</a></li>
-                            <li><a href="#backend-quiz">Take Quizzes to Check Understanding</a></li>
+                            <li><a>Visit</a></li>
+                            <li><a>Pickup</a></li>
+                            <li><a href="#backend-quiz">Delivery</a></li>
                         </menu>
-                        <h4>Personal Identification</h4>
+                        <h4>Prime Membership</h4>
                         <menu>
-                            <li><a href="#backend-podcast">Podcast: Motivation & Coding Music</a></li>
-                            <li><a href="#backend-code">Interactive Coding Exercises</a></li>
-                            <li><a>Remote Pair Programming on Discord</a></li>
-                            <li><a>Students' Solo Projects on Replit</a></li>
+                            <li><a>Visit</a></li>
+                            <li><a>Pickup</a></li>
+                            <li><a href="#backend-quiz">Delivery</a></li>
                         </menu>
                     </div>
                 </li>
@@ -86,6 +85,26 @@ template.innerHTML = `
                     <h3>Herbs</h3>
                     <div>
                         <a href="#coupon"><button>HeartBank.Domains</button></a>
+                        <h4>Culinary</h4>
+                        <menu>
+                            <li><a>Women & Minorities</a></li>
+                            <li><a>Ukrainian Refugees</a></li>
+                            <li><a>Cambodian Genocide</a></li>
+                        </menu>
+                        <h4>Medicinal</h4>
+                        <menu>
+                            <li><a>Cambodia</a></li>
+                            <li><a>Ukraine</a></li>
+                            <li><a>United States</a></li>
+                        </menu>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Drinks</h3>
+                    <div>
+                        <a href="#coupon"><button>HeartBank.Domains</button></a>
                         <h4>Browser</h4>
                         <menu>
                             <li><a>Women & Minorities</a></li>
@@ -93,6 +112,26 @@ template.innerHTML = `
                             <li><a>Cambodian Genocide</a></li>
                         </menu>
                         <h4>DNS</h4>
+                        <menu>
+                            <li><a>Cambodia</a></li>
+                            <li><a>Ukraine</a></li>
+                            <li><a>United States</a></li>
+                        </menu>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Cooking App</h3>
+                    <div>
+                        <a href="#coupon"><button>Download</button></a>
+                        <h4>Inventory</h4>
+                        <menu>
+                            <li><a>Women & Minorities</a></li>
+                            <li><a>Ukrainian Refugees</a></li>
+                            <li><a>Cambodian Genocide</a></li>
+                        </menu>
+                        <h4>Recipes</h4>
                         <menu>
                             <li><a>Cambodia</a></li>
                             <li><a>Ukraine</a></li>
