@@ -4,8 +4,8 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/sw-header/shadow.css">
     <header>
         <section>
-            <a href="/"><figure>🍇</figure></a>
-            <a href="/"><h1>Nhia Kou</h1></a>
+            <a href="/"><figure>🏪</figure></a>
+            <a href="/"><h1>Nhia Kou Market</h1></a>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -35,6 +35,35 @@ template.innerHTML = `
                             <li><a>Fruits</a></li>
                             <li><a href="#backend-quiz">Herbs</a></li>
                             <li><a>Drinks</a></li>
+                        </menu>-->
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Offline Stores</h3>
+                    <div>
+                        <a><button>Find</button></a>
+                        <!--<h4>Shoppers / Buyers</h4>
+                        <menu>
+                            <li><a>Watch Videos on Udemy</a></li>
+                            <li><a>Read Textbook on Medium</a></li>
+                            <li><a href="#backend-quiz">Take Quizzes to Check Understanding</a></li>
+                        </menu>
+                        <h4>Pro Data Entry</h4>
+                        <menu>
+                            <li><a>Data on what to grow</a></li>
+                            <li><a>Read Textbook on Medium</a></li>
+                            <li><a href="#ios-quiz">Take Quizzes to Check Understanding</a></li>
+                        </menu>
+                        <h4>Jobs</h4>
+                        ticket booth / atm / bank tellers: need to purchase coins first; cannot exchange back
+                        hence: people can donate coins to buy food only like ebt
+                        <menu>
+                            <li><a href="#ios-podcast">Podcast: Motivation & Coding Music</a></li>
+                            <li><a href="#ios-code">Interactive Coding Exercises</a></li>
+                            <li><a>Remote Pair Programming on Discord</a></li>
+                            <li><a>Students' Solo Projects on GitHub</a></li>
                         </menu>-->
                     </div>
                 </li>
