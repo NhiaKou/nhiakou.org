@@ -1,7 +1,7 @@
 import template from './template.mjs';
 
-class SwMain extends HTMLElement {
-    #hash = window.location.hash ? "SW-" + window.location.hash.substring(1).toUpperCase() : "SW-STEALTH";
+class NkMain extends HTMLElement {
+    #hash = window.location.hash ? "NK-" + window.location.hash.substring(1).toUpperCase() : "NK-STEALTH";
 
     constructor() {
         super();
@@ -21,4 +21,4 @@ class SwMain extends HTMLElement {
     }
 }
 
-customElements.define("sw-main", SwMain);
+customElements.define("nk-main", NkMain);

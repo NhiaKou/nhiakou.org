@@ -1,6 +1,6 @@
 import template from './template.mjs';
 
-class SwHeader extends HTMLElement {
+class NkHeader extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: "open" });
@@ -15,4 +15,4 @@ class SwHeader extends HTMLElement {
     }
 }
 
-customElements.define("sw-header", SwHeader);
+customElements.define("nk-header", NkHeader);

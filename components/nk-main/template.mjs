@@ -3,7 +3,7 @@ const template = document.createElement("template");
 // Reference: https://codepen.io/kitsune/pen/mPLvVp
 
 template.innerHTML = `
-    <link rel="stylesheet" href="components/sw-main/shadow.css">  
+    <link rel="stylesheet" href="components/nk-main/shadow.css">  
     <slot></slot>
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         viewBox="0 0 1536.2 755.1" style="enable-background:new 0 0 1536.2 755.1;" xml:space="preserve">
