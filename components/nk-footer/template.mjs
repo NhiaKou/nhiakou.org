@@ -14,13 +14,13 @@ template.innerHTML = `
                 <div>
                     <h5>Thank</h5>
                     <ul>
-                        <li><a href="https://kiitos.earth">Kiitos</a></li>
+                        <li><a href="https://dear.kiitos.earth/#NhiaKou">Kiitos</a></li>
                     </ul> 
                 </div>
                 <div>
                     <h5>Sponsor</h5>
                     <ul>
-                        <li><a href="https://heartbank.fund">HeartBank</a></li>
+                        <li><a href="https://heartbank.fund/#NhiaKou">HeartBank</a></li>
                     </ul>
                 </div>
             </section>
@@ -28,7 +28,7 @@ template.innerHTML = `
                 <div>
                     <h5>Connect</h5>
                     <ul>
-                        <li><a href="https://talk.siliconwat.org">Silicon Wat</a></li>
+                        <li><a href="https://me.thonly.net/#NhiaKou">THonly</a></li>
                         <li><a href="https://youtube.com/@NhiaKou">YouTube</a></li>
                         <li><a href="https://twitter.com/nhia3ou">Twitter</a></li>
                     </ul>
