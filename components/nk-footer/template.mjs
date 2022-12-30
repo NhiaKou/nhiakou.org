@@ -1,5 +1,5 @@
 import "./nk-sponsors/element.mjs";
-import { THONLY } from "/global.mjs";
+import { THONLY } from "https://thonly.org/global.mjs";
 const template = document.createElement("template");
 
 template.innerHTML = `
