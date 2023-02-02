@@ -6,8 +6,8 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/nk-header/shadow.css">
     <header>
         <section>
-            <a href="/"><figure>🏪</figure></a>
-            <a href="/"><h1>Nhia Kou Market</h1></a>
+            <a href="#"><figure>🏪</figure></a>
+            <h1>Nhia Kou Market</h1>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">

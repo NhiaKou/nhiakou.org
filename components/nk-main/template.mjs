@@ -4,7 +4,16 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <link rel="stylesheet" href="components/nk-main/shadow.css">  
-    <slot></slot>
+    <header>
+        <a><button></button></a>
+    </header>
+    <main>
+        <tl-kiitos></tl-kiitos>
+    </main>
+    <footer>
+        <!--<tl-robot></tl-robot>-->
+    </footer>
+    
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
         viewBox="0 0 1536.2 755.1" style="enable-background:new 0 0 1536.2 755.1;" xml:space="preserve">
     <rect x="96.7" y="27.1" class="st0" width="157.4" height="471.6"/>
