@@ -33,7 +33,7 @@ button {
 	cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) or (max-height: 480px) {
   :host {
       font-size: small;
   }
@@ -45,6 +45,12 @@ button {
   tl-robot {
 		display: none;
 	}
+}
+
+@media (max-height: 480px) {
+  header {
+      margin-top: 43%;
+  }
 }
 
 svg {
