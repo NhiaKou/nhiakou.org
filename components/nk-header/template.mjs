@@ -7,7 +7,7 @@ template.innerHTML = `
     <header>
         <section>
             <a href="#"><figure>🏪</figure></a>
-            <h1>Nhia Kou Markets</h1>
+            <h1>Nhia Kou Foundation</h1>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">

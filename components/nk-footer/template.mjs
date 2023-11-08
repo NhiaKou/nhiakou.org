@@ -36,13 +36,13 @@ template.innerHTML = `
                 <div>
                     <h5>Contact</h5>
                     <ul>
-                        <li><a href="mailto:market@nhiakou.com">market@nhiakou.com</a></li>
+                        <li><a href="mailto:foundation@nhiakou.org">foundation@nhiakou.org</a></li>
                     </ul>
                 </div>
             </section>
         </main>
         <footer>
-            <small><a href="https://nhiakou.org">Nhia Kou Orchard</a> &copy; 2023</small>
+            <small><a href="https://nhiakou.com">Nhia Kou Office</a> &copy; 2023</small>
         </footer>
     </nav>
 `;
