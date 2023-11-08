@@ -16,7 +16,7 @@ template.innerHTML = `
         <div>
             <ul>
                 <li>
-                    <h3>Laos</h3>
+                    <h3>United States</h3>
                     <!--<h3>Online Store</h3>-->
                     <nav>
                         <a><button>Apply for Pro Bono</button></a>
@@ -42,7 +42,7 @@ template.innerHTML = `
                     </nav>
                 </li>
                 <li>
-                    <h3>Cambodia</h3>
+                    <h3>Laos</h3>
                     <!--<h3>Offline Stores</h3>-->
                     <nav>
                         <a><button>Apply for Pro Bono</button></a>
@@ -70,7 +70,7 @@ template.innerHTML = `
                     </nav>
                 </li>
                 <li>
-                    <h3>United States</h3>
+                    <h3>Cambodia</h3>
                     <nav>
                         <a><button>Apply for Pro Bono</button></a>
                         <!--<h4>Veggie Seed Bank</h4>
@@ -125,10 +125,8 @@ template.innerHTML = `
         <aside>
             <select onchange="this.getRootNode().host.changeLanguage(event)">
                 <option value="en">English</option>
-                <option value="km" disabled>Khmer</option>
-                <option value="ru" disabled>Russian</option>
-                <!--<option value="es" disabled>Spanish</option>
-                <option value="zh" disabled>Chinese</option>-->
+                <option value="km" disabled>Laotian</option>
+                <option value="ru" disabled>Khmer</option>
             </select>
         </aside>
     </header>
