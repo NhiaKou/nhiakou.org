@@ -10,6 +10,10 @@ div {
 	flex: 5;
 }
 
+h1 {
+	font-size: 2em;
+}
+
 @media (max-width: 480px) {
 	section {
 		flex: 4;

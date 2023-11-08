@@ -16,9 +16,10 @@ template.innerHTML = `
         <div>
             <ul>
                 <li>
-                    <h3>Online Store</h3>
+                    <h3>Laos</h3>
+                    <!--<h3>Online Store</h3>-->
                     <nav>
-                        <a><button>Shop</button></a>
+                        <a><button>Apply for Pro Bono</button></a>
                         <!--<h4>Coins</h4>
                         <menu>
                             <li><a>Visit</a></li>
@@ -41,9 +42,10 @@ template.innerHTML = `
                     </nav>
                 </li>
                 <li>
-                    <h3>Offline Stores</h3>
+                    <h3>Cambodia</h3>
+                    <!--<h3>Offline Stores</h3>-->
                     <nav>
-                        <a><button>Find</button></a>
+                        <a><button>Apply for Pro Bono</button></a>
                         <!--<h4>Shoppers / Buyers</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
@@ -68,12 +70,13 @@ template.innerHTML = `
                     </nav>
                 </li>
                 <li>
-                    <h3>Family Farms</h3>
+                    <h3>United States</h3>
                     <nav>
-                        <h4>Veggie Seed Bank</h4>
+                        <a><button>Apply for Pro Bono</button></a>
+                        <!--<h4>Veggie Seed Bank</h4>
                         <menu>
                             <li><a>Free Delivery</a></li>
-                        </menu>
+                        </menu>-->
                         <!--<h4>Learn Horticulture</h4>
                         <menu>
                             <li><a>Smart Recommendations</a></li>
@@ -84,10 +87,9 @@ template.innerHTML = `
                             <li><a>#Grow-a-Thon</a></li>
                             <li><a>Certified Local</a></li>
                         </menu>-->
-                        <h4>Fruit Tree Nursery</h4>
+                        <!--<h4>Fruit Tree Nursery</h4>
                         <menu>
-                            <li><a>Grow-a-Thon</a></li>
-                        </menu>
+                            <li><-->
                         <!--<h4>Learn Arboriculture</h4>
                         <menu>
                             <li><a>Smart Recommendations</a></li>
@@ -98,10 +100,10 @@ template.innerHTML = `
                             <li><a>#Grow-a-Thon</a></li>
                             <li><a>Certified Local</a></li>
                         </menu>-->
-                        <h4>Sharecropping</h4>
+                        <!--<h4>Sharecropping</h4>
                         <menu>
                             <li><a>Apply</a></li>
-                        </menu>
+                        </menu>-->
                         <!--
                         keep track of inventory in real-time!    
                         <h4>Decentralized Family Farms</h4>
