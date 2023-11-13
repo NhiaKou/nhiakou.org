@@ -36,7 +36,7 @@ template.innerHTML = `
                 <div>
                     <h5>Contact</h5>
                     <ul>
-                        <li><a href="mailto:office@nhiakou.org">office@nhiakou.org</a></li>
+                        <li><a href="mailto:orchards@nhiakou.org">orchards@nhiakou.org</a></li>
                     </ul>
                 </div>
             </section>

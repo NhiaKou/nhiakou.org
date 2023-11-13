@@ -6,8 +6,8 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/nk-header/shadow.css">
     <header>
         <section>
-            <a href="#"><figure>🏪</figure></a>
-            <h1>Nhia Kou Foundation</h1>
+            <a href="#"><figure>🌳</figure></a>
+            <h1>Nhia Kou Orchards</h1>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -16,10 +16,10 @@ template.innerHTML = `
         <div>
             <ul>
                 <li>
-                    <h3>United States</h3>
+                    <h3>Organic Fruit Drinks</h3>
                     <!--<h3>Online Store</h3>-->
                     <nav>
-                        <a><button>Apply for Pro Bono</button></a>
+                        <a><button>Pre-Order Now!</button></a>
                         <!--<h4>Coins</h4>
                         <menu>
                             <li><a>Visit</a></li>
@@ -42,10 +42,10 @@ template.innerHTML = `
                     </nav>
                 </li>
                 <li>
-                    <h3>Laos</h3>
+                    <h3>Customize Your Bottles!</h3>
                     <!--<h3>Offline Stores</h3>-->
                     <nav>
-                        <a><button>Apply for Pro Bono</button></a>
+                        <a><button>Custom 3D Printing from Recycled Plastics</button></a>
                         <!--<h4>Shoppers / Buyers</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
@@ -69,14 +69,14 @@ template.innerHTML = `
                         </menu>-->
                     </nav>
                 </li>
-                <li>
+                <!--<li>
                     <h3>Cambodia</h3>
                     <nav>
                         <a><button>Apply for Pro Bono</button></a>
-                        <!--<h4>Veggie Seed Bank</h4>
+                        <h4>Veggie Seed Bank</h4>
                         <menu>
                             <li><a>Free Delivery</a></li>
-                        </menu>-->
+                        </menu>
                         <!--<h4>Learn Horticulture</h4>
                         <menu>
                             <li><a>Smart Recommendations</a></li>
@@ -117,16 +117,15 @@ template.innerHTML = `
                         <menu>
                             <li><a>#Grow-a-Thon</a></li>
                             <li><a>Certified Local</a></li>
-                        </menu>-->
+                        </menu>
                     </nav>
-                </li>
+                </li>-->
             </ul>
         </div>
         <aside>
             <select onchange="this.getRootNode().host.changeLanguage(event)">
                 <option value="en">English</option>
-                <option value="km" disabled>Laotian</option>
-                <option value="ru" disabled>Khmer</option>
+                <option value="km" disabled>Spanish</option>
             </select>
         </aside>
     </header>
