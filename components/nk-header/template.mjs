@@ -42,7 +42,7 @@ template.innerHTML = `
                     </nav>
                 </li>
                 <li>
-                    <h3>Customize Your Bottles!</h3>
+                    <h3>Customize Your Bottles</h3>
                     <!--<h3>Offline Stores</h3>-->
                     <nav>
                         <a><button>Custom 3D Printing from Recycled Plastics</button></a>
@@ -69,15 +69,15 @@ template.innerHTML = `
                         </menu>-->
                     </nav>
                 </li>
-                <!--<li>
-                    <h3>Cambodia</h3>
+                <li>
+                    <h3>Bonus Lottery Ticket!</h3>
                     <nav>
-                        <a><button>Apply for Pro Bono</button></a>
-                        <h4>Veggie Seed Bank</h4>
+                        <a><button>Check Result</button></a>
+                        <!--<h4>Veggie Seed Bank</h4>
                         <menu>
                             <li><a>Free Delivery</a></li>
                         </menu>
-                        <!--<h4>Learn Horticulture</h4>
+                        <h4>Learn Horticulture</h4>
                         <menu>
                             <li><a>Smart Recommendations</a></li>
                             <li><a>Zero Waste</a></li>
@@ -117,9 +117,9 @@ template.innerHTML = `
                         <menu>
                             <li><a>#Grow-a-Thon</a></li>
                             <li><a>Certified Local</a></li>
-                        </menu>
+                        </menu>-->
                     </nav>
-                </li>-->
+                </li>
             </ul>
         </div>
         <aside>
